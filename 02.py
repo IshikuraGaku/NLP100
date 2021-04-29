@@ -6,3 +6,4 @@ word = ""
 for i in range(4):
     word = word + word_P[i] + word_T[i] 
 print(word)
+
