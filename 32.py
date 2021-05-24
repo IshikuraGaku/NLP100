@@ -33,7 +33,7 @@ def make_save_mappint():
                 else:
                     dic["pos1"] = ""
             
-                analitics_dic[str(i)+str(j)] = dic
+                analitics_dic[str(i)+ " " +str(j)] = dic
         
         with open("neko_dic.json", "wt", encoding="utf-8") as out_f:
             json.dump(analitics_dic, out_f, ensure_ascii=False, indent=2)
